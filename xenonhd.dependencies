@@ -12,8 +12,19 @@
     "target_path": "external/stlport"
   },
   {
-    "repository": "android_kernel_huawei_kiwi",
-    "target_path": "kernel/huawei/kiwi"
+    "repository": "TeamHorizon/android_kernel_huawei_kiwi",
+    "target_path": "kernel/huawei/kiwi",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/proprietary_vendor_huawei",
+    "target_path": "vendor/huawei",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_device_huawei_kiwi",
+    "target_path": "device/huawei/kiwi",
+    "branch": "n"
   },
   {
     "repository": "android_packages_resources_devicesettings",

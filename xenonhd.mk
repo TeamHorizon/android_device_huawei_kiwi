@@ -28,7 +28,8 @@ PRODUCT_NAME := xenonhd_kiwi
 PRODUCT_BRAND := HONOR
 PRODUCT_MODEL := KIW-L24
 PRODUCT_MANUFACTURER := HUAWEI
-
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
-
 BOARD_VENDOR := huawei
+
+PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="maxprzemo"
+

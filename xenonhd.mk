@@ -33,3 +33,10 @@ BOARD_VENDOR := huawei
 
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="maxprzemo"
 
+ROOT_METHOD=su
+
+PRODUCT_PACKAGES += \
+    Adaway \
+    KernelAdiutor \
+    MiXplorer
+

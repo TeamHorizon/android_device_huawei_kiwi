@@ -36,7 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="maxprzemo"
 ROOT_METHOD=su
 
 PRODUCT_PACKAGES += \
-    Adaway \
+    AdAway \
     KernelAdiutor \
     MiXplorer
 

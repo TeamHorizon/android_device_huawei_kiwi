@@ -1,26 +1,26 @@
 [
   {
-    "repository": "android_kernel_huawei_kiwi",
+    "repository": "LineageOS/android_kernel_huawei_kiwi",
     "target_path": "kernel/huawei/kiwi",
-    "remote": "laos",
+    "remote": "github",
     "branch": "cm-14.1"
   },
   {
-    "repository": "proprietary_vendor_huawei",
+    "repository": "TeamHorizon/proprietary_vendor_huawei",
     "target_path": "vendor/huawei",
-    "remote": "th",
+    "remote": "github",
     "branch": "n"
   },
   {
-    "repository": "android_device_huawei_kiwi",
+    "repository": "TeamHorizon/android_device_huawei_kiwi",
     "target_path": "device/huawei/kiwi",
-    "remote": "th",
-    "branch": "n"
+    "remote": "github",
+    "branch": "o"
   },
   {
-    "repository": "android_packages_apps_FlipFlap",
+    "repository": "LineageOS/android_packages_apps_FlipFlap",
     "target_path": "packages/apps/FlipFlap",
-    "remote": "laos",
-    "branch": "cm-14.1"
+    "remote": "github",
+    "branch": "lineage-15.0"
   }
 ]

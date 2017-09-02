@@ -53,8 +53,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1280
 
-$(call inherit-product, frameworks/native/build/phone-hdpi-2048-dalvik-heap.mk)
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -114,8 +114,8 @@ PRODUCT_PACKAGES += \
     memtrack.msm8916
 
 # Doze
-PRODUCT_PACKAGES += \
-   KiwiDoze
+#PRODUCT_PACKAGES += \
+#   KiwiDoze
 
 # Filesystem
 PRODUCT_PACKAGES += \
@@ -128,8 +128,8 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
+#PRODUCT_PACKAGES += \
+#    FlipFlap
 
 # FM
 PRODUCT_PACKAGES += \

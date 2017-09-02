@@ -59,7 +59,7 @@ AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE := true
 AUDIO_FEATURE_HUAWEI_SOUND_PARAM_PATH := true
 AUDIO_FEATURE_ENABLED_NEW_SAMPLE_RATE := false
 BOARD_USES_ALSA_AUDIO := true
-USE_CUSTOM_AUDIO_POLICY := 1
+USE_CUSTOM_AUDIO_POLICY := 0
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
@@ -152,10 +152,10 @@ BOARD_RIL_CLASS := ../../../device/huawei/kiwi/ril
 TARGET_RIL_VARIANT := caf
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+include device/lineage/sepolicy/qcom/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += \
-    device/huawei/kiwi/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    device/huawei/kiwi/sepolicy
 
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_kiwi
@@ -174,7 +174,7 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_qcwcn
 WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
-TARGET_USES_QCOM_WCNSS_QMI := true
+TARGET_USES_QCOM_WCNSS_QMI := false
 TARGET_USES_WCNSS_CTRL := true
 
 # Enable real time lockscreen charging current values
